@@ -1,0 +1,21 @@
+<%@  Master Language="C#" AutoEventWireup="true" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><% = Page.Title %></title>
+</head>
+<body>
+    <div>
+        <h2>The ASP.NET Playground</h2>
+    </div>
+    <div>
+        <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+    <div>
+        <p>This is the footer - have fun exploring</p>
+    </div>
+</body>
+</html>

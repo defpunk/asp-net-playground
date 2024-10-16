@@ -7,6 +7,8 @@
 <body>
     <div>
         <h2>The ASP.NET Playground</h2>
+        <a href="LastNameStanding.aspx">Last Name Standing</a>
+        <hr />
     </div>
     <div>
         <form id="form1" runat="server">
@@ -15,6 +17,7 @@
         </form>
     </div>
     <div>
+        <hr />
         <p>This is the footer - have fun exploring</p>
     </div>
 </body>
